@@ -102,7 +102,7 @@ class MoviesList(APIView):
         
         payload = {}
         headers = {
-            'Authorization': 'Basic Key in base64'
+            'Authorization': 'Basic aU5kM2pETVlSS3NOMXBqUVBNUnoybnJxN045OXE0VHNwOUVZOWNNMDpOZTVEb1RRdDdwOHFyZ2tQZHRlblRLOHpkNk1vcmNDUjV2WFpJSk5mSnd2ZmFmWmZjT3M0cmV5YXNWWWRkVHlYQ3o5aGNMNUZHR0lWeHczcTAyaWJuQkxoYmxpdnFRVHA0QklDOTNMWkhqNE9wcHVIUVV6d3VnY1l1N1RJQzVIMQ=='
         }
 
         response = requests.request("GET", url, headers=headers, data = payload)
